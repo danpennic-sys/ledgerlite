@@ -1,0 +1,22 @@
+{
+  "number": "INV-2026-001",
+  "issued": "2026-09-27",
+  "due_days": 14,
+  "currency": "USD",
+  "seller": {
+    "name": "Operator Pages LLC",
+    "email": "billing@operatorpages.com",
+    "address": "Missouri, USA"
+  },
+  "buyer": {
+    "name": "Acme Field Services",
+    "email": "ap@acmefield.example",
+    "address": "1200 Industrial Pkwy, St. Louis, MO"
+  },
+  "notes": "Net 14. Wire details on request. Late invoices accrue 1.5% per month.",
+  "items": [
+    {"description": "Operator landing page build", "qty": 1, "unit_price": 1800, "tax_rate": 0},
+    {"description": "Monthly hosting + CRM sync", "qty": 3, "unit_price": 149, "tax_rate": 0},
+    {"description": "Copy + SEO sprint", "qty": 8, "unit_price": 95, "tax_rate": 0.0}
+  ]
+}
